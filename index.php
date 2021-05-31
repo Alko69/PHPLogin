@@ -15,7 +15,6 @@ session_start();
 <body>
     <?php
         include "header.php";
-        var_dump($_SESSION)
     ?>
 </body>
 </html>

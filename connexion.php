@@ -22,8 +22,10 @@ session_start();
     ?>
     <main>
         <form action="./controllers/session.php" method="POST">
-            <label for="fname"> Prénom</label>
+            <label for="fname"> Prénom </label>
             <input type="text" id="fname" name="pseudo" placeholder="Martin" required>
+            <label for="pass">Mot de passe </label>
+            <input type="password" id="pass" name="pass" required>
             <input type="submit" value="Envoyer" id="sub">
         </form>
     </main>
