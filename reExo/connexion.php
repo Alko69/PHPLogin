@@ -30,7 +30,8 @@ session_start();
                 <label for="pass" class="form-label">Password</label>
                 <div id="divPass">
                     <input type="password" class="form-control" id="pass" name="pass">
-                    <a class="btn btn-primary" id="test" href="#" role="button"><img class="image" src="https://image.flaticon.com/icons/png/512/25/25186.png" alt=""> </a>
+                    <a class="btn btn-primary" id="test" href="#" role="button"><img class="image" src="https://image.flaticon.com/icons/png/512/25/25186.png" alt=""> 
+                    <img class="imageClosed none" src="https://img.icons8.com/material-rounded/452/closed-eye.png" alt=""></a>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary" id="sub">Submit</button>

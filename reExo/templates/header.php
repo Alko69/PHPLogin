@@ -3,6 +3,7 @@
         <ul>
             <li><a href="index.php">Accueil</a></li>
             <li><a href="tableaux.php">Tableaux</a></li>
+            <li><a href="animations.php">Animations</a></li>
             <?php if(empty($_SESSION['name'])):?> 
                 <li class="connex"><a href="connexion.php">Connexion</a></li>
             <?php elseif(isset($_SESSION['name'])):?> 
