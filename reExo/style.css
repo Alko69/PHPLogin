@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #e5e5dc;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    padding: 0;
+}
+
+li{
+    list-style:none;
+    display: flex;
+    text-align: center;
+}
+
+header{
+    height: 10%;
+    background-color: #26495c;
+    margin-bottom: 20px;
+}
+
+nav{
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    border: solid black 1px;
+    color: whitesmoke;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user:hover #deco{
+    display: flex;
+    position:absolute;
+    top: 40px;
+    right: -1px;
+}
+
+#deco{
+    display: none;
+    border: solid black 1px;
+    text-align: center;
+    background-color: #c4a35a;
+    color: #26495c;
+}
+
+#user{
+    position: relative;
+    text-decoration: none;
+    color: #26495c;
+    background-color: #c4a35a;
+    border: solid black 1px;
+    width: 120px; 
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid black 1px;
+    padding: 19px;
+    border-radius: 10px;
+    background-color: #c4a35a;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+.connex > a{
+    background-color: #c4a35a;
+    color: #26495c;
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+main{
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulaire{
+    width: 50%;
+    margin-bottom: 10px;
+    justify-items: center;
+}
+
+#sub{
+    margin-bottom: 10px;
+    width: 50%;
+    align-self: center;
+}
+
+
+#inscription{
+    display: flex;
+    width: 45%;
+    justify-content: space-evenly;
+}
+
+#sign{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.none{
+    display: none;
+}
+
+#pass.form-control{
+    width: 270%;
+}
+
+#divPass{
+    display: flex;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+}
+
+#test{
+    background-color: transparent;
+    border: none;
+}
+
+#test:hover{
+    background-color:#c4b16a;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    border-spacing: 0px;
+    width: 30%;
+}
+td, th{
+    border:solid black 1px;
+    padding: 10px;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+th{
+    background-color: lightgoldenrodyellow;
+}
+

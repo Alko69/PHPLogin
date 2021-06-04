@@ -18,6 +18,6 @@ foreach ($users as $user){
 if($failure === $maxusers){
     session_destroy();
     header('Location: ../connexion.php');
+    echo "<script>alert(\"mdp erroné\")</script>";
 }
 
-?>

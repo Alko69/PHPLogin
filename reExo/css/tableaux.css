@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    border: solid black 1px;
+    border-spacing: 0px;
+    width: 30%;
+    justify-content: center;
+    display: flex;
+}
+
+td, th{
+    border:solid black 1px;
+    padding: 10px;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+th{
+    background-color: lightgoldenrodyellow;
+}

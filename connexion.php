@@ -16,9 +16,7 @@ session_start();
 <body>
 
     <?php
-
     include "header.php";
-
     ?>
     <main>
         <form action="./controllers/session.php" method="POST">
